@@ -1,0 +1,60 @@
+\hypertarget{TDA__fechahistorica_8cpp}{}\section{Referencia del Archivo src/\+T\+D\+A\+\_\+fechahistorica.cpp}
+\label{TDA__fechahistorica_8cpp}\index{src/\+T\+D\+A\+\_\+fechahistorica.\+cpp@{src/\+T\+D\+A\+\_\+fechahistorica.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$climits$>$}\\*
+{\ttfamily \#include \char`\"{}../includes/\+T\+D\+A\+\_\+fechahistorica.\+h\char`\"{}}\\*
+Dependencia gráfica adjunta para T\+D\+A\+\_\+fechahistorica.\+cpp\+:
+% FIG 0
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \hyperlink{TDA__fechahistorica_8cpp_ae7ffc75da1b9b42da839968d57c0dc9c}{operator$<$$<$} (ostream \&os, const \hyperlink{classFechaHistorica}{Fecha\+Historica} \&f)
+\item 
+istream \& \hyperlink{TDA__fechahistorica_8cpp_a25a93d162aadd3c52aa1f3d1831e3d75}{operator$>$$>$} (istream \&is, \hyperlink{classFechaHistorica}{Fecha\+Historica} \&f)
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\index{T\+D\+A\+\_\+fechahistorica.\+cpp@{T\+D\+A\+\_\+fechahistorica.\+cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!T\+D\+A\+\_\+fechahistorica.\+cpp@{T\+D\+A\+\_\+fechahistorica.\+cpp}}
+\subsubsection[{\texorpdfstring{operator$<$$<$(ostream \&os, const Fecha\+Historica \&f)}{operator<<(ostream &os, const FechaHistorica &f)}}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os, }
+\item[{const {\bf Fecha\+Historica} \&}]{f}
+\end{DoxyParamCaption}
+)}\hypertarget{TDA__fechahistorica_8cpp_ae7ffc75da1b9b42da839968d57c0dc9c}{}\label{TDA__fechahistorica_8cpp_ae7ffc75da1b9b42da839968d57c0dc9c}
+
+\begin{DoxyParams}{Parámetros}
+{\em os} & stream de salida \\
+\hline
+{\em f} & \hyperlink{classFechaHistorica}{Fecha\+Historica} a escribir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondición}
+Se obtiene en {\itshape os} el formato A\+N\+I\+O\+::sucesos con {\itshape A\+N\+IO} el año en que ocurrieron los {\itshape sucesos} de {\itshape f} 
+\end{DoxyPostcond}
+\index{T\+D\+A\+\_\+fechahistorica.\+cpp@{T\+D\+A\+\_\+fechahistorica.\+cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!T\+D\+A\+\_\+fechahistorica.\+cpp@{T\+D\+A\+\_\+fechahistorica.\+cpp}}
+\subsubsection[{\texorpdfstring{operator$>$$>$(istream \&is, Fecha\+Historica \&f)}{operator>>(istream &is, FechaHistorica &f)}}]{\setlength{\rightskip}{0pt plus 5cm}istream\& operator$>$$>$ (
+\begin{DoxyParamCaption}
+\item[{istream \&}]{is, }
+\item[{{\bf Fecha\+Historica} \&}]{f}
+\end{DoxyParamCaption}
+)}\hypertarget{TDA__fechahistorica_8cpp_a25a93d162aadd3c52aa1f3d1831e3d75}{}\label{TDA__fechahistorica_8cpp_a25a93d162aadd3c52aa1f3d1831e3d75}
+
+\begin{DoxyParams}{Parámetros}
+{\em is} & stream de entrada \\
+\hline
+{\em f} & \hyperlink{classFechaHistorica}{Fecha\+Historica} que recibe el valor \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Valores devueltos}
+{\em El} & \hyperlink{classFechaHistorica}{Fecha\+Historica} leído en f \\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyPrecond}{Precondición}
+La entrada tiene el formato A\+N\+I\+O\+::sucesos con {\itshape A\+N\+IO} el año en que ocurrieron los {\itshape sucesos} de {\itshape f} 
+\end{DoxyPrecond}

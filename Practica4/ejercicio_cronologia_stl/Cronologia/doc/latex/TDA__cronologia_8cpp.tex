@@ -1,0 +1,80 @@
+\hypertarget{TDA__cronologia_8cpp}{}\section{Referencia del Archivo src/\+T\+D\+A\+\_\+cronologia.cpp}
+\label{TDA__cronologia_8cpp}\index{src/\+T\+D\+A\+\_\+cronologia.\+cpp@{src/\+T\+D\+A\+\_\+cronologia.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$list$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include \char`\"{}../../\+Fecha\+Historica/includes/\+T\+D\+A\+\_\+fechahistorica.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}../includes/\+T\+D\+A\+\_\+cronologia.\+h\char`\"{}}\\*
+Dependencia gráfica adjunta para T\+D\+A\+\_\+cronologia.\+cpp\+:
+% FIG 0
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCronologia}{Cronologia} \hyperlink{TDA__cronologia_8cpp_a580622d3eaaa4c551dde62be88a4106e}{unir} (const \hyperlink{classCronologia}{Cronologia} \&cron\+\_\+1, const \hyperlink{classCronologia}{Cronologia} \&cron\+\_\+2)
+\item 
+ostream \& \hyperlink{TDA__cronologia_8cpp_a5a590e2ec95cc4489c3de5b03e2cac4c}{operator$<$$<$} (ostream \&os, const \hyperlink{classCronologia}{Cronologia} \&c)
+\item 
+istream \& \hyperlink{TDA__cronologia_8cpp_a6fa0f1131309b1cee355b9d8297ea33d}{operator$>$$>$} (istream \&is, \hyperlink{classCronologia}{Cronologia} \&c)
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentación de las funciones}
+\index{T\+D\+A\+\_\+cronologia.\+cpp@{T\+D\+A\+\_\+cronologia.\+cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!T\+D\+A\+\_\+cronologia.\+cpp@{T\+D\+A\+\_\+cronologia.\+cpp}}
+\subsubsection[{\texorpdfstring{operator$<$$<$(ostream \&os, const Cronologia \&c)}{operator<<(ostream &os, const Cronologia &c)}}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os, }
+\item[{const {\bf Cronologia} \&}]{c}
+\end{DoxyParamCaption}
+)}\hypertarget{TDA__cronologia_8cpp_a5a590e2ec95cc4489c3de5b03e2cac4c}{}\label{TDA__cronologia_8cpp_a5a590e2ec95cc4489c3de5b03e2cac4c}
+
+\begin{DoxyParams}{Parámetros}
+{\em os} & stream de salida \\
+\hline
+{\em c} & \hyperlink{classCronologia}{Cronologia} a escribir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondición}
+Se obtiene en {\itshape os} el formato \hyperlink{classFechaHistorica}{Fecha\+Historica}, \hyperlink{classFechaHistorica}{Fecha\+Historica}, ... separando cada \hyperlink{classFechaHistorica}{Fecha\+Historica} con un salto de linea 
+\end{DoxyPostcond}
+\index{T\+D\+A\+\_\+cronologia.\+cpp@{T\+D\+A\+\_\+cronologia.\+cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!T\+D\+A\+\_\+cronologia.\+cpp@{T\+D\+A\+\_\+cronologia.\+cpp}}
+\subsubsection[{\texorpdfstring{operator$>$$>$(istream \&is, Cronologia \&c)}{operator>>(istream &is, Cronologia &c)}}]{\setlength{\rightskip}{0pt plus 5cm}istream\& operator$>$$>$ (
+\begin{DoxyParamCaption}
+\item[{istream \&}]{is, }
+\item[{{\bf Cronologia} \&}]{c}
+\end{DoxyParamCaption}
+)}\hypertarget{TDA__cronologia_8cpp_a6fa0f1131309b1cee355b9d8297ea33d}{}\label{TDA__cronologia_8cpp_a6fa0f1131309b1cee355b9d8297ea33d}
+
+\begin{DoxyParams}{Parámetros}
+{\em is} & stream de entrada \\
+\hline
+{\em c} & \hyperlink{classCronologia}{Cronologia} que recibe el valor \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Valores devueltos}
+{\em La} & \hyperlink{classCronologia}{Cronologia} leído en c \\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyPrecond}{Precondición}
+La entrada tiene el formato \hyperlink{classFechaHistorica}{Fecha\+Historica}, \hyperlink{classFechaHistorica}{Fecha\+Historica}, ... separadas por salto de linea 
+\end{DoxyPrecond}
+\index{T\+D\+A\+\_\+cronologia.\+cpp@{T\+D\+A\+\_\+cronologia.\+cpp}!unir@{unir}}
+\index{unir@{unir}!T\+D\+A\+\_\+cronologia.\+cpp@{T\+D\+A\+\_\+cronologia.\+cpp}}
+\subsubsection[{\texorpdfstring{unir(const Cronologia \&cron\+\_\+1, const Cronologia \&cron\+\_\+2)}{unir(const Cronologia &cron_1, const Cronologia &cron_2)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Cronologia} unir (
+\begin{DoxyParamCaption}
+\item[{const {\bf Cronologia} \&}]{cron\+\_\+1, }
+\item[{const {\bf Cronologia} \&}]{cron\+\_\+2}
+\end{DoxyParamCaption}
+)}\hypertarget{TDA__cronologia_8cpp_a580622d3eaaa4c551dde62be88a4106e}{}\label{TDA__cronologia_8cpp_a580622d3eaaa4c551dde62be88a4106e}
+
+\begin{DoxyParams}{Parámetros}
+{\em cron\+\_\+1} & Una de las dos cronologías a unir \\
+\hline
+{\em cron\+\_\+2} & Segunda y última cronología a unir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Devuelve otra cronología formada por todas las fechas históricas de las pasadas como parámetros 
+\end{DoxyReturn}

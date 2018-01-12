@@ -1,0 +1,24 @@
+\hypertarget{TDA__cronologia_8h}{}\section{Referencia del Archivo includes/\+T\+D\+A\+\_\+cronologia.h}
+\label{TDA__cronologia_8h}\index{includes/\+T\+D\+A\+\_\+cronologia.\+h@{includes/\+T\+D\+A\+\_\+cronologia.\+h}}
+
+
+Fichero cabecera del T\+DA \hyperlink{classCronologia}{Cronologia}.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$list$>$}\\*
+{\ttfamily \#include \char`\"{}../../\+Fecha\+Historica/includes/\+T\+D\+A\+\_\+fechahistorica.\+h\char`\"{}}\\*
+Dependencia gráfica adjunta para T\+D\+A\+\_\+cronologia.\+h\+:
+% FIG 0
+Gráfico de los archivos que directa o indirectamente incluyen a este archivo\+:
+% FIG 1
+\subsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classCronologia}{Cronologia}
+\begin{DoxyCompactList}\small\item\em T.\+D.\+A. \hyperlink{classCronologia}{Cronologia}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Fichero cabecera del T\+DA \hyperlink{classCronologia}{Cronologia}. 
+
